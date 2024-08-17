@@ -1,4 +1,4 @@
-# (topic_9258d4c1) Usando args e **kwargs
+# (topic_9258d4c1) Usando *args e **kwargs
 9258d4c1-ee0a-44a6-8589-0d8c1114e675
 
 args são argumentos de posição em um método ou funcao.

@@ -48,3 +48,16 @@ print(set_1)
 set_1 = {1, "a"}
 del set_1
 # print(set_1) # gera erro pois del apaga o set do codigo
+
+print("outros testes")
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+# Union
+union_set = set1 | set2
+print(union_set)
+# Intersection
+intersection_set = set1 & set2
+print(intersection_set)
+# Difference
+difference_set = set1 - set2
+print(difference_set)

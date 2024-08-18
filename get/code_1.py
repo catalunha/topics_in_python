@@ -15,8 +15,3 @@ data = "Aaa"
 print(data)
 
 print(type(data))
-
-data = {"Aaa": 111}
-print(data)
-
-print(type(data))

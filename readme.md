@@ -1,31 +1,83 @@
+# Poetry para este projeto
+Verificar se o python 3.12 esta ativo
+  pyenv versions
+
+Se nao estiver instalar com 
+
+```
+pyenv install 3.12.0
+```
+
+Marcar como o compilador local
+```
+pyenv local 3.12.0
+```
+Instalar poetry com 
+```
+poetry init
+
+Would you like... no
+Would you like... no
+```
+Conferindo se a pasta .venv foi criada. Senão verifique estas configs
+```
+poetry config --list
+
+poetry config virtualenvs.create = true
+poetry config virtualenvs.in-project = true
+```
+
+Ativar poetry a cada trabalho
+```
+poetry shell
+```
+Instalando pacotes
+```
+poetry add requests
+```
+Se já houver um pyproject.toml
+Se assim que adicionar com poetry add ele não instalar. Apenas adicionar. Então tem que instalar após add.
+```
+poetry install
+```
+
+
 A referencia dos tópicos abordados neste material é:
 
-0. (init1_e8c6087c) Usando \_\_init\_\_.py para indicar pacote
-0. (init2_aa780310) Usando \_\_init\_\_() como construtor de classe
-0. (args_9258d4c1) Usando args e **kwargs
-0. (get_8d540e0d) Caracteristicas em objetos
-0. (name_b2849d6e) Usando if \_\_name\_\_ == '\_\_main\_\_'
-0. (dict_94c90a9e) Dicionarios - dict
-0. (list_58ab08b4) Listas - list
-0. (tuple_0f7b1ec9) Tuplas - tuple
-0. (set_38e5b9a8) Conjunto - set
-0. (hello_6497fe96) Hello word
-0. (comment_d894c83f) Comentários
-0. (print_9ad20fee) Imprimindo no terminal
-0. (type_5c6959f4) Tipos de variáveis e conversões
+0. (hello) Hello word
+0. (comment) Comentários
+0. (print) Imprimindo no terminal
+0. (type) Tipos de variáveis e conversões
+0. (dict) Dicionarios - dict
+0. (list) Listas - list
+0. (tuple) Tuplas - tuple
+0. (set) Conjunto - set
+0. (get) Caracteristicas em objetos
+0. (args_) Usando args e **kwargs
+0. (init1) Usando \_\_init\_\_.py para indicar pacote
+0. (init2) Usando \_\_init\_\_() como construtor de classe
+0. (name) Usando if \_\_name\_\_ == '\_\_main\_\_'
+0. (flow) Controle e fluxo
+0. (operators) Operadores aritméticos e relacionais
+0. (functions) Funções
+0. (class) Classes
+0. (file) Lendo e escrevendo em arquivos
+0. (try) Tratamento de exceções
+0. (comprehensions) Criando Comprehensions
+0. (lambda) Criando lambda
+0. (json) Trabalhando com json's
+0. (datetime) Trabalhando com datetime
+0. (requests) Trabalhando com requests
+
+# Script para criar pasta
+mkdir requests; cd requests; touch readme.md; touch code_1.py
+
+# Tutoriais
+https://www.w3schools.com/python/default.asp
 
 
-https://www.w3schools.com/python/python_sets_access.asp
+# CheatSheet
+https://levelup.gitconnected.com/python-cheatsheet-5474e14853cb
 
-mv topic_38e5b9a8 set_38e5b9a8
-mv topic_58ab08b4 list_58ab08b4
-mv topic_5c6959f4 type_5c6959f4
-mv topic_6497fe96 hello_6497fe96
-mv topic_8d540e0d get_8d540e0d
-mv topic_9258d4c1 args_9258d4c1
-mv topic_94c90a9e dict_94c90a9e
-mv topic_9ad20fee print_9ad20fee
-mv topic_aa780310 init2_aa780310
-mv topic_b2849d6e name_b2849d6e
-mv topic_d894c83f comment_d894c83f
-mv topic_e8c6087c init1_e8c6087c
+
+#

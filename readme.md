@@ -38,9 +38,11 @@ Abordaremos:
 0. (init2) Usando \_\_init\_\_() como construtor de classe
 0. (name) Usando if \_\_name\_\_ == '\_\_main\_\_'
 
+
+
 Meu Script para criar pasta
 ```
-mkdir requests; cd requests; touch readme.md; touch code_1.py
+mkdir typing; cd typing; touch readme.md; touch code_1.py
 ```
 
 ## Ambiente de desenvolvimento

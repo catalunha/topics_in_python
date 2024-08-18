@@ -52,6 +52,16 @@ def funcao_vazia1():
 def funcao_vazia2(): ...
 
 
+# Parametro opcional
+def function_parameter_optional(name: str, last_name=None, age: int = 10) -> str:
+    return f"{name} {last_name} tem {age}"
+
+
+result = function_parameter_optional("a", age=20)
+print(result)
+print(type(result))
+
+
 # Parametros em tupla
 # Se nao sabemos a quantidade de parametros
 # podemos agrupa-lo numa tupla com *args
@@ -85,3 +95,27 @@ def funcao_exemplo1(equipe, *team, **day):
 
 result = funcao_exemplo1("DevsPython", "Jorge", "Almeida", reuniao=5, festa=15)
 print(result)
+
+
+# Functions com tipagem
+print("Functions com tipagem")
+
+
+def function_1_with_typing(name: str, age: int = 10) -> str:
+    return f"{name} tem {age}"
+
+
+result = function_1_with_typing("b", 20)
+print(result)
+print(type(result))
+
+
+def function_2_with_typing(
+    name: str, last_name: str | None = None, age: int = 10
+) -> str:
+    return f"{name} {last_name} tem {age}"
+
+
+result = function_2_with_typing("a", age=20)
+print(result)
+print(type(result))

@@ -17,8 +17,8 @@ Abordaremos:
 0. (comment) Comentários
 0. (print) Imprimindo no terminal
 0. (type) Tipos de variáveis e conversões
-0. (dict) Dicionarios - dict
 0. (list) Listas - list
+0. (dict) Dicionarios - dict
 0. (tuple) Tuplas - tuple
 0. (set) Conjunto - set
 0. (get) Caracteristicas em objetos
@@ -34,11 +34,9 @@ Abordaremos:
 0. (datetime) Trabalhando com datetime
 0. (requests) Trabalhando com requests
 0. (args_) Usando args e **kwargs
-0. (init1) Usando \_\_init\_\_.py para indicar pacote
-0. (init2) Usando \_\_init\_\_() como construtor de classe
-0. (name) Usando if \_\_name\_\_ == '\_\_main\_\_'
-
-
+0. (init_package) Usando \_\_init\_\_.py para indicar pacote
+0. (init_class) Usando \_\_init\_\_() como construtor de classe
+0. (name_main) Usando if \_\_name\_\_ == '\_\_main\_\_'
 
 Meu Script para criar pasta
 ```
@@ -102,10 +100,15 @@ Ativar poetry a cada trabalho
 poetry shell
 ```
 
+No VSCode prescione: ctrl alt n
+
+Instale as seguintes extensões:
+
+![](images/extensions.png)
 
 ### Mac
-Em construção
+Em construção.
 
 ### Win
-Em construção
+Em construção.
 

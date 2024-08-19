@@ -61,3 +61,7 @@ print(intersection_set)
 # Difference
 difference_set = set1 - set2
 print(difference_set)
+
+
+# declare set empty
+conjunto_3: set[int] = set()

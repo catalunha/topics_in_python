@@ -106,5 +106,6 @@ print("lista_de_tuplas2", lista_de_tuplas2, type(lista_de_tuplas2))
 conjunto_2: set[int] = {1, 2}
 print("conjunto", conjunto, type(conjunto))
 
+
 dictionary: dict[str, int] = {"a": 1}
 print("dictionary", dictionary, type(dictionary))

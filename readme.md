@@ -13,34 +13,39 @@ E também outras fontes:
 
 Abordaremos:
 
-0. (hello) Hello word
-0. (comment) Comentários
-0. (print) Imprimindo no terminal
-0. (type) Tipos de variáveis e conversões
-0. (list) Listas - list
-0. (dict) Dicionarios - dict
-0. (tuple) Tuplas - tuple
-0. (set) Conjunto - set
-0. (get) Caracteristicas em objetos
-0. (flow) Controle e fluxo
-0. (operators) Operadores aritméticos e relacionais
-0. (functions) Funções
-0. (class) Classes
-0. (file) Lendo e escrevendo em arquivos
-0. (try) Tratamento de exceções
-0. (comprehensions) Criando Comprehensions
-0. (lambda) Criando lambda
-0. (json) Trabalhando com json's
-0. (datetime) Trabalhando com datetime
-0. (requests) Trabalhando com requests
-0. (args_) Usando args e **kwargs
-0. (init_package) Usando \_\_init\_\_.py para indicar pacote
-0. (init_class) Usando \_\_init\_\_() como construtor de classe
-0. (name_main) Usando if \_\_name\_\_ == '\_\_main\_\_'
+[comment](comment/readme.md)
+
+0. ([hello](hello/readme.md)) Hello word
+0. ([comment](comment/readme.md)) Comentários
+0. ([print](print/readme.md)) Imprimindo no terminal
+0. ([input](input/readme.md)) Lendo do terminal
+0. ([type](type/readme.md)) Tipos de variáveis e conversões
+0. ([list](list/readme.md)) Listas - list
+0. ([dict](dict/readme.md)) Dicionarios - dict
+0. ([tuple](tuple/readme.md)) Tuplas - tuple
+0. ([set](set/readme.md)) Conjunto - set
+0. ([object](object/readme.md)) Caracteristicas em objetos
+0. ([flow](flow/readme.md)) Controle e fluxo
+0. ([operators](operators/readme.md)) Operadores aritméticos e relacionais
+0. ([functions](functions/readme.md)) Funções
+0. ([class](class/readme.md)) Classes
+0. ([file](file/readme.md)) Lendo e escrevendo em arquivos
+0. ([try](try/readme.md)) Tratamento de exceções
+0. ([comprehensions](comprehensions/readme.md)) Criando Comprehensions
+0. ([lambda](lambda/readme.md)) Criando lambda
+0. ([string](string/readme.md)) Manipulando string's
+0. ([json](json/readme.md)) Trabalhando com json's
+0. ([random](random/readme.md)) Trabalhando com random
+0. ([datetime](datetime/readme.md)) Trabalhando com datetime
+0. ([requests](requests/readme.md)) Trabalhando com requests
+0. ([args](args/readme.md)) Usando args e **kwargs
+0. ([init_package](init_package/readme.md)) Usando \_\_init\_\_.py para indicar pacote
+0. ([init_class](init_class/readme.md)) Usando \_\_init\_\_() construtor de classe
+0. ([name_main](name_main/readme.md)) Usando if \_\_name\_\_ == '\_\_main\_\_'
 
 Meu Script para criar pasta
 ```
-mkdir typing; cd typing; touch readme.md; touch code_1.py
+mkdir input; cd input; touch readme.md; touch code_1.py; cd ..
 ```
 
 ## Ambiente de desenvolvimento
@@ -100,11 +105,31 @@ Ativar poetry a cada trabalho
 poetry shell
 ```
 
-No VSCode prescione: ctrl alt n
-
+#### VSCode
 Instale as seguintes extensões:
 
 ![](images/extensions.png)
+
+Para compilar o arquivo prescione: 
+``` 
+ctrl alt n
+``` 
+
+Habilitando verificação de tipagem no VSCode
+
+Crie a seguinte estrutura na raiz de seu projeto
+```
+.vscode/
+└── settings.json
+```
+E no arquivo settings.json coloque
+```
+{
+  // "python.analysis.typeCheckingMode": "basic"
+  "python.analysis.typeCheckingMode": "strict"
+}
+```
+
 
 ### Mac
 Em construção.

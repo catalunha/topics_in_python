@@ -1,5 +1,5 @@
-# (topic_94c90a9e) Dicionarios em python
-94c90a9e-1fb3-4d1a-a56a-3ec40fd089db
+# (dict) Dicionarios em python
+[Home](../readme.md)
 
 Dicionários em python são objetos similares a JSON's
 

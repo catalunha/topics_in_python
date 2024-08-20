@@ -1,5 +1,5 @@
-# (topic_0f7b1ec9) Tuplas em python
-0f7b1ec9-4796-4645-b0f3-6bc0fe46e5b3
+# (tuple) Tuplas em python
+[Home](../readme.md)
 
 Características:
 0. São imutáveis (Não podemos alterar, adicionar nem remover itens)

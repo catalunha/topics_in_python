@@ -1,4 +1,5 @@
-# (topic_5c6959f4) Tipos de variáveis e conversões
+# (type) Tipos de variáveis e conversões
+[Home](../readme.md)
 
 Habilitando verificação de tipagem no VSCode
 
@@ -10,6 +11,7 @@ Crie a seguinte estrutura na raiz de seu projeto
 E no arquivo settings.json coloque
 ```
 {
-  "python.analysis.typeCheckingMode": "basic"
+  // "python.analysis.typeCheckingMode": "basic"
+  "python.analysis.typeCheckingMode": "strict"
 }
 ```

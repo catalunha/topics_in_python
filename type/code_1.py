@@ -74,7 +74,7 @@ print(
 )
 
 # Tipos com tipagem
-print("Tipagem de variaveis")
+print("# Tipagem de variaveis")
 print("## Tipos básicos")
 integer: int = 1
 print("integer", integer, type(integer))

@@ -1,5 +1,5 @@
-# (topic_e8c6087c) Usando __init__.py para indicar pacote python
-e8c6087c-ba50-4450-bcbb-01dd761f8ee1
+# (init_package) Usando __init__.py para indicar pacote python
+[Home](../readme.md)
 
 Considere a estrutura das pastas deste tópico em python.
     

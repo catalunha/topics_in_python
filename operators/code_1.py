@@ -38,3 +38,30 @@ print("T or F = T")
 print("F or T = T")
 print("T or T = T")
 print("F or F = F")
+
+print("all ao inves de and")
+dict_1: dict[str, int] = {
+    "a": 1,
+    "b": 2,
+    "c": 3,
+}
+
+# list_1: list[str] = ["a", "b"]
+required_list_1: list[str] = ["a", "b", "d"]
+
+if all(key in dict_1 for key in required_list_1):
+    print("Todos os requeridos foram encontrados")
+else:
+    print("Algum requerido NAO foi encontrado")
+
+
+print("any ao inves de or")
+list_1: list[str] = ["a", "b", "c"]
+
+# required_list_2: list[str] = ["a", "d"]
+required_list_2: list[str] = ["d", "e"]
+
+if any(value in list_1 for value in required_list_2):
+    print("Algum foi encontrado")
+else:
+    print("Nenhum foi encontrado")

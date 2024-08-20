@@ -13,8 +13,6 @@ E também outras fontes:
 
 Abordaremos:
 
-[comment](comment/readme.md)
-
 0. ([hello](hello/readme.md)) Hello word
 0. ([comment](comment/readme.md)) Comentários
 0. ([print](print/readme.md)) Imprimindo no terminal

@@ -50,8 +50,13 @@ mkdir input; cd input; touch readme.md; touch code_1.py; cd ..
 
 ### Online
 
-Oficialmente usaremos o https://colab.research.google.com/
+Oficialmente usaremos o
 
+0. https://colab.research.google.com/
+
+Outros ambientes python online estão em:
+0. https://app.programiz.pro/
+0. https://www.online-python.com/
 
 ### Linux
 Ou instalar o ambiente localmente. Para Linux segue meu roteiro.

@@ -49,10 +49,9 @@ mkdir input; cd input; touch readme.md; touch code_1.py; cd ..
 ## Ambiente de desenvolvimento
 
 ### Online
-Poderemos usar o:
 
-0. https://app.programiz.pro/
-0. https://www.online-python.com/
+Oficialmente usaremos o https://colab.research.google.com/
+
 
 ### Linux
 Ou instalar o ambiente localmente. Para Linux segue meu roteiro.

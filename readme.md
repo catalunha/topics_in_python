@@ -55,7 +55,7 @@ Oficialmente usaremos o
 0. https://colab.research.google.com/
 
 Outros ambientes python online estão em:
-0. https://app.programiz.pro/
+
 0. https://www.online-python.com/
 
 ### Linux

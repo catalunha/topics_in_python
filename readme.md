@@ -46,6 +46,13 @@ Meu Script para criar pasta
 mkdir input; cd input; touch readme.md; touch code_1.py; cd ..
 ```
 
+
+# Ativar poetry a cada trabalho
+```
+poetry shell
+```
+
+
 ## Ambiente de desenvolvimento
 
 ### Online

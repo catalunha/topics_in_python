@@ -1,22 +1,4 @@
-# (type) Tipos de variáveis e conversões
-[Home](../readme.md)
-
-Habilitando verificação de tipagem no VSCode
-
-Crie a seguinte estrutura na raiz de seu projeto
-```
-.vscode/
-└── settings.json
-```
-E no arquivo settings.json coloque
-```
-{
-  // "python.analysis.typeCheckingMode": "basic"
-  "python.analysis.typeCheckingMode": "strict"
-}
-```
-
-
+"""
 # Tipos especiais
 
 Existem alguns tipos especiais que podem ser usados para especificar o tipo de dados de uma variável.
@@ -31,18 +13,19 @@ Existem alguns tipos especiais que podem ser usados para especificar o tipo de d
 * Mapping: pode conter qualquer tipo de dados que possa ser mapeado;
 * MutableMapping: pode conter qualquer tipo de dados que possa ser mapeado e mutável;
 * Callable: pode conter qualquer tipo de dados que possa ser chamado.
-```py
+"""
+
 from typing import (
     Any,
-    Union,
-    Optional,
-    Literal,
+    Callable,
     Final,
     Iterable,
-    Sequence,
+    Literal,
     Mapping,
     MutableMapping,
-    Callable
+    Optional,
+    Sequence,
+    Union,
 )
 
 variavel_any: Any = 123
@@ -55,4 +38,3 @@ variavel_sequence: Sequence[int] = [1, 2, 3]
 variavel_mapping: Mapping[str, int] = {"a": 1, "b": 2, "c": 3}
 variavel_mutable_mapping: MutableMapping[str, int] = {"a": 1, "b": 2, "c": 3}
 variavel_callable: Callable[[int, int], int] = lambda x, y: x + y
-```

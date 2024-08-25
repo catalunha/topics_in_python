@@ -28,6 +28,9 @@ elif x == 0:
 else:
     print("Negative")
 
+is_active = True
+action = "Usuário foi ativado" if is_active else "Usuário foi desativado"
+
 
 print("# Loop")
 print("## for")

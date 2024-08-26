@@ -40,10 +40,11 @@ Abordaremos:
 0. ([init_package](init_package/readme.md)) Usando \_\_init\_\_.py para indicar pacote
 0. ([init_class](init_class/readme.md)) Usando \_\_init\_\_() construtor de classe
 0. ([name_main](name_main/readme.md)) Usando if \_\_name\_\_ == '\_\_main\_\_'
+0. ([yield](yield/readme.md)) Usando yield
 
 Meu Script para criar pasta
 ```
-mkdir input; cd input; touch readme.md; touch code_1.py; cd ..
+mkdir yield; cd yield; touch readme.md; touch code_1.py; cd ..
 ```
 
 
@@ -84,6 +85,8 @@ Marcar como o compilador local
 pyenv local 3.12.0
 ```
 Instalar poetry com 
+Maior informações sobre o poetry aqui: https://python-poetry.org/docs
+
 ```
 poetry init
 

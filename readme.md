@@ -7,6 +7,8 @@ Anotei aqui alguns tópicos em pyhton. Mas é importante consultar a documentaç
 E também outras fontes:
 
 0. https://www.w3schools.com/python/default.asp
+0. https://www.geeksforgeeks.org/django-tutorial/
+0. https://www.tutorialspoint.com/django/index.htm
 
 
 ## Sumário dos tópicos

@@ -12,7 +12,7 @@ Sintaxe example | [1,'a'] | (1,'a') | {1,'a'} | {'a':'A','b':2,}
 Sintaxe type | [Any] | (Any) | {Any} | {str:Any}
 Indice | 0 | 0 | Sem indice | Indice é a chave
 Adicionar elemento | append() | Não permite | add() | Use 'chave':valor ou update()
-Remover elemento | pop() | Não permite | Permite. Mas randomicamente | pop('chave')
+Remover elemento | Ultimo com pop() | Não permite | Permite. Mas randomicamente | pop('chave')
 Ordenável | sort() | Não permite | Não permite | sorted()
 Buscar elemento | index()| index() | Não permite | get('chave')
 Reverte elementos | reverse() | Não permite | Não permite | Não permite

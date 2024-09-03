@@ -1,7 +1,10 @@
-import json
+from typing import Any
 
-dict_1 = {"a": 1}
-dict_1.update({"b": 2})
-dict_1["c"] = 3
-print(dict_1)
-print(json.dumps(dict_1, indent=2))
+
+def test(a: str | None = None, b: Any = "ss") -> None:
+    print(a)
+    print(b)
+
+
+test("aaa", "bb")
+test()

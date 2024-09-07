@@ -44,6 +44,7 @@ Abordaremos:
 0. ([name_main](name_main/readme.md)) Usando if \_\_name\_\_ == '\_\_main\_\_'
 0. ([yield](yield/readme.md)) Usando yield
 
+
 Meu Script para criar pasta
 ```
 mkdir yield; cd yield; touch readme.md; touch code_1.py; cd ..

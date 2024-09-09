@@ -39,6 +39,7 @@ Abordaremos:
 0. ([datetime](datetime/readme.md)) Trabalhando com datetime
 0. ([requests](requests/readme.md)) Trabalhando com requests
 0. ([args](args/readme.md)) Usando args e **kwargs
+0. ([\_\_dunder\_\_](dunder/readme.md) ) Usando dunder
 0. ([init_package](init_package/readme.md)) Usando \_\_init\_\_.py para indicar pacote
 0. ([init_class](init_class/readme.md)) Usando \_\_init\_\_() construtor de classe
 0. ([name_main](name_main/readme.md)) Usando if \_\_name\_\_ == '\_\_main\_\_'

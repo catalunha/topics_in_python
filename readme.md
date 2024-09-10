@@ -50,7 +50,10 @@ Meu Script para criar pasta
 ```
 mkdir yield; cd yield; touch readme.md; touch code_1.py; cd ..
 ```
-
+E criar base64 de arquivo de imagem
+```
+echo "data:image/jpeg;base64,$(base64 -w 0 filename.jpeg)"
+```
 
 # Ativar poetry a cada trabalho
 ```

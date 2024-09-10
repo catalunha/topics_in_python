@@ -1,10 +1,14 @@
-from typing import Any
+import logging
+
+logging.basicConfig(level=logging.CRITICAL)
+logger = logging.getLogger(__name__)
 
 
-def test(a: str | None = None, b: Any = "ss") -> None:
-    print(a)
-    print(b)
+print("Oi")
+logger.debug("msg debug")
+logger.info("msg info")
+logger.warning("msg warning")
+logger.error("msg error")
+logger.critical("msg critical")
 
-
-test("aaa", "bb")
-test()
+print("fui")

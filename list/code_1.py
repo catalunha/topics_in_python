@@ -1,8 +1,16 @@
+from typing import Any
+
 print("## code_1.py - Listas em python")
 
 print("""### Criando lista""")
 
-list_1 = [1, "a", 3.14, [2, 3], ("b", 2)]
+list_1: list[Any] = [
+    1,
+    "a",
+    3.14,
+    [2, 3],
+    ("b", 2),
+]
 print(list_1)
 
 tuple_1 = (1, 2)

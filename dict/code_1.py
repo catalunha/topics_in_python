@@ -1,7 +1,7 @@
 print("""## code_1.py comentado""")
 
 
-print("""### Criando dicionários""")
+print("""## Criando dicionários""")
 
 contacts_tuple_in_list = [("Aaa", 111), ("Bbb", 222), ("Ccc", 333)]
 print(contacts_tuple_in_list)
@@ -13,7 +13,7 @@ print(contacts_dict_of_tuple__in_list)
 contacts = {"Aaa": 111, "Bbb": 222, "Ccc": 333}
 print(contacts)
 
-print("""### Acessando itens""")
+print("""## Acessando itens""")
 contacts = {"Aaa": 111, "Bbb": 222, "Ccc": 333}
 print(contacts)
 
@@ -29,14 +29,14 @@ print("Ddd" in contacts)
 print(111 in contacts)
 print(111 in contacts.values())
 
-print("""### Adicionando itens""")
+print("""## Adicionando itens""")
 contacts = {"Aaa": 111, "Bbb": 222, "Ccc": 333}
 print(contacts)
 
 contacts["Ddd"] = 444
 print(contacts)
 
-print("""### Removendo itens""")
+print("""## Removendo itens""")
 contacts = {"Aaa": 111, "Bbb": 222, "Ccc": 333}
 contacts["Ddd"] = 444
 print(contacts)
@@ -48,7 +48,7 @@ print(contacts)
 # print(contacts.pop("Ddd")) # Se key nao existe, gera erro
 print(contacts.pop("Ddd", 999))  # tem q ter valor de retorno
 
-print("""### Juntando dicionarios""")
+print("""## Juntando dicionarios""")
 contacts = {"Aaa": 111, "Bbb": 222, "Ccc": 333}
 print(contacts)
 
@@ -65,7 +65,7 @@ print(contacts_old)
 contacts.update(contacts_old)
 print(contacts)
 
-print("""### Compreensões em dicionários""")
+print("""## Compreensões em dicionários""")
 contacts = {"Aaa": 111, "Bbb": 222, "Ccc": 333}
 print(contacts)
 
@@ -73,7 +73,7 @@ contacts_new = {name: 1000 + contacts[name] for name in contacts}
 print(contacts_new)
 
 
-print("""### Views em dicionários""")
+print("""## Views em dicionários""")
 contacts = {"Aaa": 111, "Bbb": 222, "Ccc": 333}
 print(contacts)
 print(contacts.values())

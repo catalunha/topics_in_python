@@ -1,17 +1,17 @@
 print("## code_1.py - Conjunto em python")
 
-print("""### Criando um conjunto""")
+print("""## Criando um conjunto""")
 
 set_1 = {1, "a", 3.14}
 print(set_1)
 
 
-print("""### Acessando itens em conjuntos""")
+print("""## Acessando itens em conjuntos""")
 # Nao é possivel acessar a um item do set
 # set_1[0] # gera erro
 print("a" in set_1)
 
-print("""### Adicionando itens em conjuntos""")
+print("""## Adicionando itens em conjuntos""")
 set_1 = {1, "a", 3.14}
 set_1.add(2)
 print(set_1)
@@ -23,7 +23,7 @@ list_1 = [3, 4]
 set_1.update(list_1)
 print(set_1)
 
-print("""### Removendo itens a tupla""")
+print("""## Removendo itens a tupla""")
 set_1 = {1, "a"}
 print(set_1)
 # Se o item nao existe dispara um erro
@@ -49,7 +49,7 @@ set_1 = {1, "a"}
 del set_1
 # print(set_1) # gera erro pois del apaga o set do codigo
 
-print("outros testes")
+print("## Outros recursos")
 set1 = {1, 2, 3}
 set2 = {3, 4, 5}
 # Union

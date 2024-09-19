@@ -60,6 +60,14 @@ echo "data:image/jpeg;base64,$(base64 -w 0 filename.jpeg)"
 poetry shell
 ```
 
+## Format code
+
+https://python.plainenglish.io/migrating-from-flake8-and-black-to-ruff-python-dc91b8a0a243
+https://python.plainenglish.io/python-code-formatter-black-or-ruff-b88f8260cf1b
+https://learndjango.com/tutorials/pre-commit-django
+
+
+
 
 ## Ambiente de desenvolvimento
 
@@ -123,6 +131,15 @@ Ativar poetry a cada trabalho
 ```
 poetry shell
 ```
+
+Se o ambiente virtual nao coincidir com o do poetry. apague a pasta .venv e use o comando
+Assim ele pega o py correto.
+```
+poetry env use 3.8
+poetry shell
+```
+
+
 
 #### VSCode
 Instale as seguintes extensões:
